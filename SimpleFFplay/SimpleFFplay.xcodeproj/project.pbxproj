@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4033E6E21C63B2A00F247BD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4033E6D21C63B2A00F247BD /* main.c */; };
+		A4033E8021C63B9700F247BD /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033E7721C63B9700F247BD /* libswscale.a */; };
+		A4033E8121C63B9700F247BD /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033E7821C63B9700F247BD /* libswresample.a */; };
+		A4033E8221C63B9700F247BD /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033E7921C63B9700F247BD /* libavutil.a */; };
+		A4033E8321C63B9700F247BD /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033E7A21C63B9700F247BD /* libavdevice.a */; };
+		A4033E8521C63B9700F247BD /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033E7C21C63B9700F247BD /* libavformat.a */; };
+		A4033E8621C63B9700F247BD /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033E7D21C63B9700F247BD /* libavcodec.a */; };
+		A4033E8A21C63BC200F247BD /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033E8921C63BC200F247BD /* libSDL2.a */; };
+		A4033E8D21C63C7200F247BD /* cmdutils.c in Sources */ = {isa = PBXBuildFile; fileRef = A4033E8B21C63C7200F247BD /* cmdutils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4033E6821C63B2A00F247BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4033E6A21C63B2A00F247BD /* SimpleFFplay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleFFplay; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4033E6D21C63B2A00F247BD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A4033E7521C63B7200F247BD /* Changelog */ = {isa = PBXFileReference; lastKnownFileType = text; name = Changelog; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/Changelog; sourceTree = "<group>"; };
+		A4033E7721C63B9700F247BD /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libswscale.a; sourceTree = "<group>"; };
+		A4033E7821C63B9700F247BD /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libswresample.a; sourceTree = "<group>"; };
+		A4033E7921C63B9700F247BD /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libavutil.a; sourceTree = "<group>"; };
+		A4033E7A21C63B9700F247BD /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libavdevice.a; sourceTree = "<group>"; };
+		A4033E7B21C63B9700F247BD /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpostproc.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libpostproc.a; sourceTree = "<group>"; };
+		A4033E7C21C63B9700F247BD /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libavformat.a; sourceTree = "<group>"; };
+		A4033E7D21C63B9700F247BD /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libavcodec.a; sourceTree = "<group>"; };
+		A4033E7E21C63B9700F247BD /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libavfilter.a; sourceTree = "<group>"; };
+		A4033E7F21C63B9700F247BD /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavresample.a; path = ../../../../../../../usr/local/Cellar/ffmpeg/4.1/lib/libavresample.a; sourceTree = "<group>"; };
+		A4033E8921C63BC200F247BD /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../../../../../../../usr/local/Cellar/sdl2/2.0.9/lib/libSDL2.a; sourceTree = "<group>"; };
+		A4033E8B21C63C7200F247BD /* cmdutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmdutils.c; sourceTree = "<group>"; };
+		A4033E8C21C63C7200F247BD /* cmdutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmdutils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4033E6721C63B2A00F247BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4033E8A21C63BC200F247BD /* libSDL2.a in Frameworks */,
+				A4033E8021C63B9700F247BD /* libswscale.a in Frameworks */,
+				A4033E8121C63B9700F247BD /* libswresample.a in Frameworks */,
+				A4033E8221C63B9700F247BD /* libavutil.a in Frameworks */,
+				A4033E8321C63B9700F247BD /* libavdevice.a in Frameworks */,
+				A4033E8521C63B9700F247BD /* libavformat.a in Frameworks */,
+				A4033E8621C63B9700F247BD /* libavcodec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4033E6121C63B2A00F247BD = {
+			isa = PBXGroup;
+			children = (
+				A4033E6C21C63B2A00F247BD /* SimpleFFplay */,
+				A4033E6B21C63B2A00F247BD /* Products */,
+				A4033E7421C63B7200F247BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4033E6B21C63B2A00F247BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4033E6A21C63B2A00F247BD /* SimpleFFplay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4033E6C21C63B2A00F247BD /* SimpleFFplay */ = {
+			isa = PBXGroup;
+			children = (
+				A4033E6D21C63B2A00F247BD /* main.c */,
+				A4033E8B21C63C7200F247BD /* cmdutils.c */,
+				A4033E8C21C63C7200F247BD /* cmdutils.h */,
+			);
+			path = SimpleFFplay;
+			sourceTree = "<group>";
+		};
+		A4033E7421C63B7200F247BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4033E8921C63BC200F247BD /* libSDL2.a */,
+				A4033E7D21C63B9700F247BD /* libavcodec.a */,
+				A4033E7A21C63B9700F247BD /* libavdevice.a */,
+				A4033E7E21C63B9700F247BD /* libavfilter.a */,
+				A4033E7C21C63B9700F247BD /* libavformat.a */,
+				A4033E7F21C63B9700F247BD /* libavresample.a */,
+				A4033E7921C63B9700F247BD /* libavutil.a */,
+				A4033E7B21C63B9700F247BD /* libpostproc.a */,
+				A4033E7821C63B9700F247BD /* libswresample.a */,
+				A4033E7721C63B9700F247BD /* libswscale.a */,
+				A4033E7521C63B7200F247BD /* Changelog */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4033E6921C63B2A00F247BD /* SimpleFFplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4033E7121C63B2A00F247BD /* Build configuration list for PBXNativeTarget "SimpleFFplay" */;
+			buildPhases = (
+				A4033E6621C63B2A00F247BD /* Sources */,
+				A4033E6721C63B2A00F247BD /* Frameworks */,
+				A4033E6821C63B2A00F247BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleFFplay;
+			productName = SimpleFFplay;
+			productReference = A4033E6A21C63B2A00F247BD /* SimpleFFplay */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4033E6221C63B2A00F247BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sunlubo;
+				TargetAttributes = {
+					A4033E6921C63B2A00F247BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A4033E6521C63B2A00F247BD /* Build configuration list for PBXProject "SimpleFFplay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4033E6121C63B2A00F247BD;
+			productRefGroup = A4033E6B21C63B2A00F247BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4033E6921C63B2A00F247BD /* SimpleFFplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4033E6621C63B2A00F247BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4033E8D21C63C7200F247BD /* cmdutils.c in Sources */,
+				A4033E6E21C63B2A00F247BD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4033E6F21C63B2A00F247BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4033E7021C63B2A00F247BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4033E7221C63B2A00F247BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y4KSPGWRT;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/ffmpeg/4.1/lib,
+					/usr/local/Cellar/sdl2/2.0.9/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4033E7321C63B2A00F247BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y4KSPGWRT;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/ffmpeg/4.1/lib,
+					/usr/local/Cellar/sdl2/2.0.9/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4033E6521C63B2A00F247BD /* Build configuration list for PBXProject "SimpleFFplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4033E6F21C63B2A00F247BD /* Debug */,
+				A4033E7021C63B2A00F247BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4033E7121C63B2A00F247BD /* Build configuration list for PBXNativeTarget "SimpleFFplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4033E7221C63B2A00F247BD /* Debug */,
+				A4033E7321C63B2A00F247BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4033E6221C63B2A00F247BD /* Project object */;
+}
